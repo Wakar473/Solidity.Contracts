@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "totalSupply",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ERC20.sol": "ERC20"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ERC20.sol": {
+			"keccak256": "0xd26e3435521d6f6c98660ab6a29a7e12c1476990645b0b0e62b32ed1482c416b",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://297410517a3933aa6734bac7d29269a004b1ec2741edff1246ca21e1da8e2baa",
+				"dweb:/ipfs/QmNjzknRRAWTW3AiMFJmALPRWysVKGwe8XTyCfPgBuQVHT"
+			]
+		}
+	},
+	"version": 1
+}

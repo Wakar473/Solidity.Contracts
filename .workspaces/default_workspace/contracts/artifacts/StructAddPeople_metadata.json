@@ -1,0 +1,103 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "empid",
+						"type": "int256"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "department",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "designation",
+						"type": "string"
+					}
+				],
+				"name": "addEmployee",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "empid",
+						"type": "int256"
+					}
+				],
+				"name": "getEmployee",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Pep.sol": "StructAddPeople"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Pep.sol": {
+			"keccak256": "0x032a43c728f9896139ea1e0313f8c45e1c05dda32d6699aa020b6bcaf8a35f3d",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://cc32c2fe1cb32c24764705ba187bfd74b73802aa969d0e13d190b06bd6ac2cc6",
+				"dweb:/ipfs/QmNWx1rLbeR8UByo7863Xuv3a9mseshk79BoWpgDTSgAoc"
+			]
+		}
+	},
+	"version": 1
+}

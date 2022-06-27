@@ -1,0 +1,135 @@
+{
+	"id": "b75c0b52b13676434f0710cb07ba8834",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.7",
+	"solcLongVersion": "0.8.7+commit.e28d00a7",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"contracts/Erc20.sol": {
+				"content": "//SPDX-License-Identifier: GPL-3.0\r\npragma solidity^0.8.0;\r\n\r\ninterface IERC20{\r\n\r\n    \r\n}"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			}
+		}
+	},
+	"output": {
+		"contracts": {
+			"contracts/Erc20.sol": {
+				"IERC20": {
+					"abi": [],
+					"devdoc": {
+						"kind": "dev",
+						"methods": {},
+						"version": 1
+					},
+					"evm": {
+						"assembly": "",
+						"bytecode": {
+							"functionDebugData": {},
+							"generatedSources": [],
+							"linkReferences": {},
+							"object": "",
+							"opcodes": "",
+							"sourceMap": ""
+						},
+						"deployedBytecode": {
+							"functionDebugData": {},
+							"generatedSources": [],
+							"immutableReferences": {},
+							"linkReferences": {},
+							"object": "",
+							"opcodes": "",
+							"sourceMap": ""
+						},
+						"gasEstimates": null,
+						"legacyAssembly": null,
+						"methodIdentifiers": {}
+					},
+					"metadata": "{\"compiler\":{\"version\":\"0.8.7+commit.e28d00a7\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/Erc20.sol\":\"IERC20\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"contracts/Erc20.sol\":{\"keccak256\":\"0x4a3faac12f49b231916d74a2d2bfd3f6fba75297d3baeb21e4e12a6f870995d0\",\"license\":\"GPL-3.0\",\"urls\":[\"bzz-raw://15757fafbd1ec82972bdf034d023cd0606a18fc2bc01958c01471d9e980e0ae1\",\"dweb:/ipfs/QmcHj6ZZmCBin1tuvhbA2Kew4u5tvBAf8ny3X6wpUwx2AK\"]}},\"version\":1}",
+					"storageLayout": {
+						"storage": [],
+						"types": null
+					},
+					"userdoc": {
+						"kind": "user",
+						"methods": {},
+						"version": 1
+					}
+				}
+			}
+		},
+		"sources": {
+			"contracts/Erc20.sol": {
+				"ast": {
+					"absolutePath": "contracts/Erc20.sol",
+					"exportedSymbols": {
+						"IERC20": [
+							2
+						]
+					},
+					"id": 3,
+					"license": "GPL-3.0",
+					"nodeType": "SourceUnit",
+					"nodes": [
+						{
+							"id": 1,
+							"literals": [
+								"solidity",
+								"^",
+								"0.8",
+								".0"
+							],
+							"nodeType": "PragmaDirective",
+							"src": "36:22:0"
+						},
+						{
+							"abstract": false,
+							"baseContracts": [],
+							"contractDependencies": [],
+							"contractKind": "interface",
+							"fullyImplemented": true,
+							"id": 2,
+							"linearizedBaseContracts": [
+								2
+							],
+							"name": "IERC20",
+							"nameLocation": "72:6:0",
+							"nodeType": "ContractDefinition",
+							"nodes": [],
+							"scope": 3,
+							"src": "62:28:0",
+							"usedErrors": []
+						}
+					],
+					"src": "36:54:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}

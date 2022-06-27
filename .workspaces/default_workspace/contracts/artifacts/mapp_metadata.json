@@ -1,0 +1,83 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "roll_no",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "keys",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "value",
+						"type": "string"
+					}
+				],
+				"name": "setter",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/mapping.sol": "mapp"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/mapping.sol": {
+			"keccak256": "0x77b7140d6eecaa243f27d7cd529813659fa136a43f9b684018b8fb5df2f84895",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://da70660c7668fced9984d7dfd2c4de25465d8aabb96b3cec277df64bd5c2895c",
+				"dweb:/ipfs/QmUk421V9g4Q2guEsiQhbFRo7HYwfDM4DiVcvuw3fnRdos"
+			]
+		}
+	},
+	"version": 1
+}

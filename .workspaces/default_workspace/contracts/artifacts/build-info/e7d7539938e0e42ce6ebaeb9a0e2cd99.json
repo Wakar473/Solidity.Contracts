@@ -1,0 +1,141 @@
+{
+	"id": "e7d7539938e0e42ce6ebaeb9a0e2cd99",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.7",
+	"solcLongVersion": "0.8.7+commit.e28d00a7",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"contracts/mapping.sol": {
+				"content": "//SPDX-License-Identifier: GPL-3.0\r\n\r\npragma solidity >=0.5.0 <0.9.0;\r\n// contract Mapping\r\n// {\r\n//     mapping(uint=>string) public roll_no;\r\n//     function setter(uint keys,string memory value) public\r\n//     {\r\n//      roll_no[keys]=value;\r\n//     }\r\n// }\r\n\r\n\r\n// {\r\n//     mapping(uint=>string) public emp_id;\r\n//     function setIds() public {\r\n//         emp_id[31]=\"amit\";\r\n//          emp_id[32]=\"rahul\";\r\n//           emp_id[33]=\"arun\";\r\n//            emp_id[30]=\"amitab\";\r\n       \r\n//     } \r\n// }\r\n\r\nstruct donor_dts{\r\n    string name;\r\n    uint age;\r\n    \r\n}"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			}
+		}
+	},
+	"output": {
+		"sources": {
+			"contracts/mapping.sol": {
+				"ast": {
+					"absolutePath": "contracts/mapping.sol",
+					"exportedSymbols": {
+						"donor_dts": [
+							6
+						]
+					},
+					"id": 7,
+					"license": "GPL-3.0",
+					"nodeType": "SourceUnit",
+					"nodes": [
+						{
+							"id": 1,
+							"literals": [
+								"solidity",
+								">=",
+								"0.5",
+								".0",
+								"<",
+								"0.9",
+								".0"
+							],
+							"nodeType": "PragmaDirective",
+							"src": "38:31:0"
+						},
+						{
+							"canonicalName": "donor_dts",
+							"id": 6,
+							"members": [
+								{
+									"constant": false,
+									"id": 3,
+									"mutability": "mutable",
+									"name": "name",
+									"nameLocation": "543:4:0",
+									"nodeType": "VariableDeclaration",
+									"scope": 6,
+									"src": "536:11:0",
+									"stateVariable": false,
+									"storageLocation": "default",
+									"typeDescriptions": {
+										"typeIdentifier": "t_string_storage_ptr",
+										"typeString": "string"
+									},
+									"typeName": {
+										"id": 2,
+										"name": "string",
+										"nodeType": "ElementaryTypeName",
+										"src": "536:6:0",
+										"typeDescriptions": {
+											"typeIdentifier": "t_string_storage_ptr",
+											"typeString": "string"
+										}
+									},
+									"visibility": "internal"
+								},
+								{
+									"constant": false,
+									"id": 5,
+									"mutability": "mutable",
+									"name": "age",
+									"nameLocation": "559:3:0",
+									"nodeType": "VariableDeclaration",
+									"scope": 6,
+									"src": "554:8:0",
+									"stateVariable": false,
+									"storageLocation": "default",
+									"typeDescriptions": {
+										"typeIdentifier": "t_uint256",
+										"typeString": "uint256"
+									},
+									"typeName": {
+										"id": 4,
+										"name": "uint",
+										"nodeType": "ElementaryTypeName",
+										"src": "554:4:0",
+										"typeDescriptions": {
+											"typeIdentifier": "t_uint256",
+											"typeString": "uint256"
+										}
+									},
+									"visibility": "internal"
+								}
+							],
+							"name": "donor_dts",
+							"nameLocation": "520:9:0",
+							"nodeType": "StructDefinition",
+							"scope": 7,
+							"src": "513:59:0",
+							"visibility": "public"
+						}
+					],
+					"src": "38:534:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}

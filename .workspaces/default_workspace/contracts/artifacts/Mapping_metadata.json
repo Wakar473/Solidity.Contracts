@@ -1,0 +1,115 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "acc_info",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "age",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "add",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "don",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "delete_info",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_age",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_add",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_don",
+						"type": "uint256"
+					}
+				],
+				"name": "set",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/mapping.sol": "Mapping"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/mapping.sol": {
+			"keccak256": "0xcb1a8d2b43841cde3002001f5fe3d6a5f80b6f6f58d07b0368f97f8e2d916ce9",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://320df489aff01959260a02c9bda80a987a084db8fe20d72ef634e2c0d006ef03",
+				"dweb:/ipfs/QmWFtS1eRH5HMsowe35ZF5TLWdbws6yK11BFr4mcGbDyRm"
+			]
+		}
+	},
+	"version": 1
+}

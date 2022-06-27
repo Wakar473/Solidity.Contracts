@@ -1,0 +1,70 @@
+{
+	"id": "14ae7ac42b1d71431f1427c0d0b1fd47",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.7",
+	"solcLongVersion": "0.8.7+commit.e28d00a7",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"contracts/Bitcoin.sol": {
+				"content": "//SPDX-License-Identifier:GPL-3.0\r\n\r\npragma solidity >=0.5.0 <0.9.0;\r\n"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			}
+		}
+	},
+	"output": {
+		"sources": {
+			"contracts/Bitcoin.sol": {
+				"ast": {
+					"absolutePath": "contracts/Bitcoin.sol",
+					"exportedSymbols": {},
+					"id": 2,
+					"license": "GPL-3.0",
+					"nodeType": "SourceUnit",
+					"nodes": [
+						{
+							"id": 1,
+							"literals": [
+								"solidity",
+								">=",
+								"0.5",
+								".0",
+								"<",
+								"0.9",
+								".0"
+							],
+							"nodeType": "PragmaDirective",
+							"src": "37:31:0"
+						}
+					],
+					"src": "37:33:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}

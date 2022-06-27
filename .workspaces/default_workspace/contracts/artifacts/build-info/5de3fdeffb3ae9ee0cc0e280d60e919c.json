@@ -1,0 +1,71 @@
+{
+	"id": "5de3fdeffb3ae9ee0cc0e280d60e919c",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.7",
+	"solcLongVersion": "0.8.7+commit.e28d00a7",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"contracts/require.sol": {
+				"content": "//SPDX-License-Identifier:GPD"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			}
+		}
+	},
+	"output": {
+		"errors": [
+			{
+				"component": "general",
+				"errorCode": "3420",
+				"formattedMessage": "Warning: Source file does not specify required compiler version! Consider adding \"pragma solidity ^0.8.7;\"\n--> contracts/require.sol\n\n",
+				"message": "Source file does not specify required compiler version! Consider adding \"pragma solidity ^0.8.7;\"",
+				"severity": "warning",
+				"sourceLocation": {
+					"end": -1,
+					"file": "contracts/require.sol",
+					"start": -1
+				},
+				"type": "Warning"
+			}
+		],
+		"sources": {
+			"contracts/require.sol": {
+				"ast": {
+					"absolutePath": "contracts/require.sol",
+					"exportedSymbols": {},
+					"id": 1,
+					"license": "GPD",
+					"nodeType": "SourceUnit",
+					"nodes": [],
+					"src": "29:0:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}
